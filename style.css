@@ -1,0 +1,186 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  /* Active input border linear gradient */
+  --active-input-border-gradient: linear-gradient(90deg, hsl(249, 99%, 64%), hsl(278, 94%, 30%));
+
+  /* Red (input errors) */
+  --input-error-color: hsl(0, 100%, 66%);
+
+  /* Neutral colors */
+  --white-color: hsl(0, 0%, 100%);
+  --light-grayish-violet-color: hsl(270, 3%, 87%);
+  --dark-grayish-violet-color: hsl(279, 6%, 55%);
+  --very-dark-violet-color: hsl(278, 68%, 11%);
+}
+
+body {
+
+  font-family: Arial, sans-serif;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  height: 100vh;
+  gap: 300px;
+  margin: 0;
+  flex-wrap: wrap;
+
+
+}
+  
+#thankYouSection{
+  padding: 20px;
+ 
+}
+.thankYouSection h1{
+  margin-bottom: 10px;
+}
+.thankYouSection p{
+color: var(--light-grayish-violet-color);
+margin-bottom: 10px;
+
+}
+.hidden {
+      /* display: none; */
+}
+
+.silderbar {
+  width: 400px;
+  height: 100vh;
+  background-image: url(images/bg-main-desktop.png);
+  /* background-repeat: no-repeat; */
+}
+
+.credit-card-form {
+  background-color: #fff;
+  border-radius: 8px;
+  /* box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); */
+  padding: 30px;
+  max-width: 400px;
+  width: 100%;
+}
+
+.box {
+  width: 400px;
+  height: 230px;
+  background-image: url(images/bg-card-front.png);
+  background-repeat: no-repeat;
+  position: absolute;
+  background-size: cover;
+  top: 14%;
+  left: 6%;
+  border-radius: 10px;
+
+}
+
+.box img {
+  margin: 30px 25px;
+  
+}
+
+.box h1 {
+  margin-top: 40px;
+  margin-left: 25px;
+  color: var(--white-color);
+}
+.para{
+display: flex;
+/* justify-content: space-between; */
+position: absolute;
+}
+.p1{
+  padding: 10px;
+  margin-left: 20px;
+    color: var(--white-color);
+
+}
+  .p2{
+    /* margin-right: 60px; */
+    margin-left: 80px;
+    margin-top: 10px;
+      color: var(--white-color);
+      
+
+  }
+  .p3{
+      /* margin-right: 60px; */
+      
+      margin-top: 10px;
+        color: var(--white-color);
+  
+    
+  }
+.box2 {
+  width: 400px;
+  height: 230px;
+  background-image: url(images/bg-card-back.png);
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 60%;
+  left: 14%;
+  background-size: cover;
+  border-radius: 10px;
+
+}
+.box2 p{
+  margin-top:100px;
+  margin-left: 20rem;
+  color: var(--light-grayish-violet-color);
+}
+
+.credit-card-info {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+
+.credit-card-info label {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.credit-card-info input {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 10px;
+  margin-bottom: 10px;
+  width: 100%;
+  outline: none;
+  cursor: pointer;
+
+}
+
+.exp-inputs {
+  display: flex;
+}
+
+.exp-inputs input {
+  width: 45px;
+  margin-right: 10px;
+  outline: none;
+  cursor: pointer;
+
+}
+
+.confirm-btn {
+  background-color: var(--very-dark-violet-color);
+  border: none;
+  border-radius: 4px;
+  color: #fff;
+  cursor: pointer;
+  font-size: 16px;
+  padding: 10px;
+  width: 100%;
+  color: #fff;
+}
+a{
+  color: #fff;
+
+}
+.confirm-btn:hover {
+  background-color: var(--very-dark-violet-color);
+}
